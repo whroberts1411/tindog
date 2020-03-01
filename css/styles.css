@@ -1,0 +1,250 @@
+/* --------------------------------------------------------------------------------------------- */
+/* Individual style elements in Bootstrap classes can be overwritten as long as the style sheet is
+   linked in AFTER the Bootstrap one , AND it's flagged as "!important". If either not done, then
+   the Bootstrap entry will be used, regardless of any entries in this css file.
+
+.bg-dark {
+    background-color: #5f0311 !important;
+}*/
+/* --------------------------------------------------------------------------------------------- */
+
+/* Styles for HTML Elements -------------------------------------------------------------------- */
+
+body {
+  padding-top: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 80px 0 40px 0;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 20px 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* Styles for HTML IDs ------------------------------------------------------------------------- */
+
+#title {
+  background-color: #ff4c68;
+  color: whitesmoke;
+}
+
+#img-rotate {
+  width: 19rem;
+  margin: 20px auto 20px auto;
+  display: block;
+  position: relative;
+  transform: rotate(25deg);
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#pricing {
+  text-align: center;
+  padding: 5% 3%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 6% 20% 6% 20%;
+  margin-top: 30px;
+}
+
+#footer {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 100px 150px 40px 150px;
+}
+
+/* Styles for HTML Classes --------------------------------------------------------------------- */
+
+/* Header section with navbar ----------- */
+
+.doglogo {
+  height: 35px;
+  margin: 0 20px 0 0;
+}
+
+.navbar {
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-link {
+  margin: 0 10px 0 0;
+}
+
+.container-fluid {
+  padding: 3% 5% 0% 5%;
+}
+
+.download-button {
+  margin: 0 20px 0 0;
+}
+
+.download-button:hover {
+  color: #ff4c68;
+}
+
+.top-col {
+  margin-bottom: 0%;
+  height: 0%;
+}
+
+.title-row {
+  margin-bottom: -100px;
+}
+
+@media screen and (max-width: 991px) {
+  #img-rotate {
+    width: 16rem;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-row {
+    margin-bottom: 0;
+  }
+}
+
+/* Features section --------------------- */
+
+.feature-cell {
+  margin: 40px 0px 30px 0px;
+}
+
+.feature-text {
+  color: #5a5858;
+  margin: 0 20% 10% 20%;
+}
+
+.feature-icon {
+  font-size: 60px;
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.features-center {
+  text-align: center;
+}
+
+/* Testimonials section ----------------- */
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  padding-right: 10px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* Press images section ----------------- */
+
+.press-image {
+  width: 12%;
+  margin: 0 5%;
+}
+
+/* Pricing section ---------------------- */
+
+.card-header {
+  background-color: #ef8172;
+  color: whitesmoke;
+}
+
+.price-btn {
+  margin-top: 55px;
+}
+
+.pricing-cell {
+  padding: 10px 10px;
+}
+
+.card {
+  margin: auto;
+}
+
+.pricing-center {
+  text-align: center;
+}
+
+/* Call to Action section --------------- */
+
+.cta-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: whitesmoke;
+}
+
+.cta-button {
+  margin: 30px 5px 0px 5px;
+}
+
+.cta-button:hover {
+  color: #ff4c68;
+}
+
+/* Footer section ----------------------- */
+
+.footer-icon {
+  margin: 0 10px 15px 10px;
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}
+
+.footer-text {
+  font-size: 0.75rem;
+}
+
+/* --------------------------------------------------------------------------------------------- */
